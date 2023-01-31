@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Tuition and Fees</title>
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="../assets/styles.css" media="screen">
+
+  </head>
+
+  <body class="index-image">
+    <!-- Start of navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:royalblue">
+        <a class="navbar-brand" href="../index.html">Top U.S. Colleges</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="studentpop.html">Student Population</a>
+                    <a class="dropdown-item" href="historical.html">Historical Significance</a>
+                    <a class="dropdown-item" href="topranked.html">Top 10 Ranked Schools</a>
+                    <a class="dropdown-item" href="tuitionfees.html">Tuition and Fees</a>
+                    <!--a class="dropdown-item" href="visualizations/wind.html">Wind</a-->
+                </div>
+              <!--li class="nav-item">
+                  <a class="nav-link" href="comparison.html">Comparison</a>
+              </li-->
+              <li class="nav-item">
+                   <a class="nav-link" href="../data.html">Data</a>
+              </li>
+          </ul>
+      </div>
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Start of container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+              <h1 class="display-4" style="color:white">Tuition and Fees</h1>
+                <br><div class="jumbotron" style="background-color:rgba(143, 188, 143, 0.681)">
+                  <p class="lead">The Cost Breakdown</p>
+                    </button>
+                <br><br><a href="../resources/graphs-chartJS-tuition.html">
+                    <button class="btn btn-primary" style="background-color:royalblue;color:black;">
+                        <img src="../assets/tuition_graph.PNG" width="100%" />Our Chart
+                    </button>
+                  </a>
+                  <p class="lead">In the Tuition Fees chart, the top ten universities show Columbia University has the highest tuition fee at $55, 056 while Princeton University has the lowest tuition fee at $45, 320. Columbia University, University of Chicago ($52, 491), University of Pennsylvania ($51, 464), Duke University ($51, 265), and Johns Hopkins University ($50, 410) fall into the upper five universities in tuition fees whereas Yale University ($49, 480), M.I.T. ($48, 452), Stanford University ($47, 940), Harvard University ($47, 074), and Princeton University ($45, 320) fall into the lower five. The calculated average of these universities combined is $49,895. In part, the differences in the costs of tuition can be attributed to items such as campus activities, parking fees, the library, workout and recreational facilities, as well as enrollment and course fees. For reference, the 2022-2023 cost of attendance (COA) for a non-resident at the University of Texas at San Antonio (UTSA) is $26, 352. </p>
+                </div>
+          <!-- Start of Visualizations imageNav Area -->
+        </div>
+        <div class="col-md-2">
+           <br><a href="topranked.html">
+                <button class="btn btn-primary" style="background-color:royalblue;color:darkseagreen;">
+                    <img src="../assets/locations.png" width="90%" />Top 10 Ranked Schools
+                </button></a>
+            <br><br><a href="historical.html">
+                <button class="btn btn-primary" style="background-color:royalblue;color:darkseagreen;">
+                    <img src="../assets/yearsfounded.png" width="90%" />Historical Significance
+                </button>
+            <br><br><a href="studentpop.html">
+                <button class="btn btn-primary" style="background-color:royalblue;color:darkseagreen;">
+                    <img src="../assets/undergrad_graph.PNG" width="90%" />Student Population
+                </button>
+            <br><br><a href="tuitionfees.html">
+                <button class="btn btn-primary" style="background-color:royalblue;color:darkseagreen;">
+                    <img src="../assets/tuition_graph.PNG" width="90%" />Tuition and Fees
+                </button>
+        </div>
+          <!-- End of the Visualizations imageNav Area -->
+    <!-- End of container -->
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+  </body>
+
+</html>
